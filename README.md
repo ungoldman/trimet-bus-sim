@@ -1,14 +1,13 @@
-bus-sim
-=======
+# PDX Bus Driver Sim 2000
+*Extreme Alpha Edition*
 
-Chattanooga Bus Driver Sim 2000
+## Wat
+This is a demo that uses the [TriMet Vehicle Location Service API](http://developer.trimet.org/ws_docs/vehicle_locations_ws.shtml) mashed up with the Google StreetView API.
 
-welp. This just happened.
+## Todo
+* Actually list routes and allow selection of routes & buses
+  * See http://developer.trimet.org/ws_docs/routeConfig_ws.shtml (list all routes: `http://developer.trimet.org/ws/V1/routeConfig/appid/xxx`)
+* Get photo of TriMet bus cockpit to **enhance realism**
 
-![](https://i.cloudup.com/4P8movxysd-3000x3000.png)
-
-This is a demo that uses the experimental http://chab.us API mashed up with the Google StreetView API.
-
-If everything is broken, please don't blame me.
-
-ISC license.
+## License
+ISC

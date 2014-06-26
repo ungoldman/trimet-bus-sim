@@ -1,0 +1,63 @@
+html, body, #map-canvas {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-style: italic;
+  font-family: impact, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#map-canvas {
+  position: relative;
+  z-index: 9999;
+  width: 400px;
+}
+
+#controlpanel {
+  position:absolute;
+  width: 400px;
+  right: 0;
+  top: 0;
+}
+
+#controlpanel > div {
+  padding: 5px;
+}
+
+.details {
+  font-family: monospace;
+  font-style: normal;
+  font-size: 11px;
+}
+
+#details {
+  white-space: pre;
+}
+
+.wrap {
+  position: relative;
+  width: 800px;
+  height: 352px;
+  margin: auto;
+}
+.wrap.wrap-more {
+  height: 500px;
+}
+
+#cockpit {
+  background: url('cockpit.png') no-repeat scroll 0% 0% transparent;
+  position: absolute;
+  z-index: 8888;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+#pano {
+  height: 100%;
+}
